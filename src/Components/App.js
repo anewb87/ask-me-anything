@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
-import Form from './Form'
+import Form from './Form';
+import AnswersContainer from './AnswersContainer';
 import { getAnswer } from '../apiCalls';
 import '../Styling/App.css'
 
@@ -21,6 +22,7 @@ const App = () => {
       Tell me what you want (what you really, really want) to know, and I'll tell you no lies.<br/>
       While I may not be human, I've still got a lot to say. </p>
       <Form submitQuestion={submitQuestion}/>
+      <AnswersContainer answers={answers}/>
     </main>
   );
 }
