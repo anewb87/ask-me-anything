@@ -6,11 +6,11 @@ const AnswersContainer = ({ answers }) => {
 
   const determineDisplay = () => {
     if (answers.length) {
-      const cards = answers.map(answer => {
+      const cards = answers.map((answer, i) => {
         return (
           <Card
             id={answer.id}
-            key={answer.id}
+            key={i}
             question={answer.question}
             answer={answer.response}
           />
