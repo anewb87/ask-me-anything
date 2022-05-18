@@ -1,0 +1,14 @@
+.card {
+  background-color: #F58124;
+  border-radius: 10px;
+}
+
+.question {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: rgba(17, 35, 78, 1)
+}
+
+.answer {
+  color: rgba(17, 35, 78, 1)
+}

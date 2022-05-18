@@ -9,7 +9,7 @@ const Error = ({ error, toClose}) => {
       <section className='modal' onClick={toClose}>
         <div className='modal-message'>
           <p>Oops! Something went wrong.</p>
-          <p className='error-message'>{error}</p>
+          <p>{error}.</p>
           <button className='modal-button'
             onClick={toClose}>Try Again
           </button>

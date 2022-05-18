@@ -1,36 +1,34 @@
+h1 {
+  margin: 0;
+  font-size: 2.2em;
+  font-weight: 600;
+  text-shadow: 3px 3px 3px black;
+  padding: .7% 0 .2% 0;
+}
+
+p {
+  font-size: 1.3em
+}
+
+button {
+  font-family: 'Bitter', serif;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: .5s;
+}
+
 .app {
   text-align: center;
-  /* background-color: black;
-  height: 100vh; */
-  /* color: transparent;
-  background-color: linear-gradient(90deg, #9f310e, #e34912) */
+  font-family: 'Bitter',serif;
+  color: #F7F7F7;
+  background: linear-gradient(180deg, rgba(17, 35, 78, 1) 0%, rgba(26, 59, 112, 1) 50%, rgba(92, 131, 196, 1) 100%);
+  height: 100vh;
 }
 
 .header {
-  text-align: left;
-
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-bottom: 1px solid #F58124;
+  margin: 0 4% 0 4%;
 }

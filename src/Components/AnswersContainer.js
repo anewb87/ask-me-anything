@@ -26,8 +26,8 @@ const AnswersContainer = ({ answers }) => {
 
   return  (
     <section>
-      <h2>Our Conversations</h2>
-      <div>
+      <h2 className='conversations'>Our Conversations</h2>
+      <div className='answers-container'>
         {determineDisplay()}
       </div>
     </section>

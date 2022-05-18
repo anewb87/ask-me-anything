@@ -20,12 +20,11 @@ const App = () => {
 
   return (
     <main className='app'>
-      <header className='header'>ASK ME ANYTHING!</header>
-      <p>Pontificating upon a problem? <br/> Perhaps you're hungry for a hedgehog haiku or in need of some knot knowledge. <br/>
-      Tell me what you want (what you really, really want) to know, and I'll tell you no lies.<br/>
-      While I may not be human, I've still got a lot to say. </p>
+      <header className='header'>
+        <h1>ASK ME ANYTHING!</h1>
+      </header>
+      <p>I may not be human, but I've got a lot to say. What would you like to know?</p>
       <Form submitQuestion={submitQuestion}/>
-      {/* {errorMessage.length > 0 && <Error errorMessage={errorMessage} setErrorMessage={setErrorMessage}/>} */}
       <AnswersContainer answers={answers}/>
       <Error 
         error={error}

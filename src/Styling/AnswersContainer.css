@@ -1,0 +1,14 @@
+.answers-container {
+  font-size: .7em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+.conversations {
+  text-align: start;
+  margin-top: 5%;
+  margin-left: 5%;
+}
