@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import '../Styling/Form.css'
 
 const Form = ({ submitQuestion }) => {
-
   const [ question, setQuestion ] = useState('')
 
   const clearQuestion = () => {
@@ -18,16 +17,16 @@ const Form = ({ submitQuestion }) => {
         clearQuestion();
       }}
     >
-      <label>Your Question/Prompt
+      <label>Your Query:
         <textarea 
-          rows='8'
-          cols='60'
+          rows='2'
+          cols='65'
           placeholder='ex: What is the airspeed velocity of a coconut-laden swallow?'
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
         />
       </label>
-      <button>Ask Away!</button>
+      <button className='submit-button'>Ask Away!</button>
     </form>
   )
 }

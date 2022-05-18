@@ -3,9 +3,9 @@ import '../Styling/Card.css'
 
 const Card = ({ id, question, answer }) => {
   return (
-    <section>
-      <p>Your Question: {question}</p>
-      <p>My Answer: {answer}</p>
+    <section className='card'>
+      <p className='question'>{question}</p>
+      <p className='answer'>{answer}</p>
     </section>
   )
 }
