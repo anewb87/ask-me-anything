@@ -31,4 +31,3 @@ const getAnswer = (input) => {
 }
 
 export { getAnswer }
-
