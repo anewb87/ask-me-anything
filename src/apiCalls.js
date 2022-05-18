@@ -1,4 +1,4 @@
-const apiKey = process.env.REACT_APP_API_KEY
+const API_KEY = process.env.REACT_APP_API_KEY
 
 const checkResponse = (response) => {
   if (!response.ok) {
@@ -8,10 +8,10 @@ const checkResponse = (response) => {
   }
 }
 
-const getAnswer = (question) => {
+const getAnswer = (input) => {
 
   const data = {
-    prompt: question,
+    prompt: input,
     temperature: 0.5,
     max_tokens: 64,
     top_p: 1.0,
@@ -23,12 +23,12 @@ const getAnswer = (question) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`,
+      Authorization: `Bearer ${API_KEY}`,
     },
     body: JSON.stringify(data),
   })
-    .then(response => { checkResponse(response) });
-  .then(data => { console.log(data) })
+    .then(response => checkResponse(response))
 }
 
 export { getAnswer }
+

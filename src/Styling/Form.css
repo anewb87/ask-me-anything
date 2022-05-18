@@ -1,0 +1,17 @@
+/* .form {
+  display: flex;
+  flex-direction: column;
+} */
+
+textarea {
+  resize: none;
+  color: white;
+  font-size: 18px;
+  /* border-radius: 40px; */
+  /* background: rgb(2, 0, 36); */
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 61%, rgba(0, 24, 255, 1) 100%);
+}
+
+::placeholder {
+  color: rgb(211, 211, 211)
+}
