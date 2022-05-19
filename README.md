@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Ask Me Anything- Fun with AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Deployed Link](#deployed-link)
+- [Overview](#overview)
+- [Project Goals](#project-goals)
+- [Tech Stack](#technologies-used)
+- [Installation & Setup](#installation-and-setup)
+- [API](#api)
+- [Author](#author)
 
-## Available Scripts
+## Deployed Link
+[Ask Me Anything]()   
+*DISCLAIMER: It appears that OpenAI API lacks compatibility with Heroku. While the application doesn't fully function on this deployed site, it does on my local device.*
 
-In the project directory, you can run:
+## Overview
+*Ask Me Anything* is an application built for the Shopify Front End Developer Intern Challenge. The project specifications can be found [here](https://docs.google.com/document/d/1O7mCynsz_cBXkEaCFGSZAuvAOY84QVq35l20xJwjOYg/edit#).  
+This application allows users to have some fun with Artificial Intelligence by sending questions or instructions to an api that processes their input and sends back a human-language response. 
 
-### `npm start`
+## Project Goals
+- **Input Text Promps and Recieve a Response:** The responses should display both the user input and the response. Additionally, the newest prompt should be displayed first.  
+![user-input-and-response](https://media.giphy.com/media/F1ilSzEw7f4yCODpYM/giphy.gif)  <br/><br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Accessible:** This application was tested with the [WAVE web accessibility evaluation tool](https://wave.webaim.org/) with zero errors detected.  
+<img width="1440" alt="Wave accessibility with zero erros" src="https://user-images.githubusercontent.com/89421307/169362382-f5a60458-fe1a-4fc1-81f9-b78104d14b6e.png">  <br/><br/>
+  
+- **Responsive Design:** *Ask Me Anything* is responsive to varying screen sizes.  
+![responsive-design](https://media.giphy.com/media/PGItL3qAO8oSJwT9xC/giphy.gif)  <br/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **E2E Testing:** Cypress was used to build end-to-end tests for user flow, employing an intercept and fixture.
+<img width="1440" alt="Cypress testing of all tests passing" src="https://user-images.githubusercontent.com/89421307/169365146-7f6f0689-6839-410c-9053-d7891d7e1c5c.png">
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### `npm run build`
+## Installation and Setup
+To run *Ask Me Anything* locally:
+- Fork this repository
+- Run ```git@github.com:anewb87/ask-me-anything.git``` in your command line
+- Run ```cd ask-me-anything```
+- Run ```npm install```
+- Run ```npm start``` and visit ```localhost:3000``` in your browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API
+The api used for this project is [OpenAI API](https://openai.com/api/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##  Author
+- Lexy Newby (she/her) [LinkedIn](https://www.linkedin.com/in/lexy-newby/) || [GitHub](https://github.com/anewb87)
