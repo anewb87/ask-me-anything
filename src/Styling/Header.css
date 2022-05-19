@@ -1,0 +1,22 @@
+h1 {
+  color: #2ABBC7;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-shadow: 2px 3px 4px #00111c;
+  margin: 0;
+  padding: .7% 0 .2% 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid #013252;
+  padding-top: 1%;
+  padding-bottom: 1%
+}
+
+.robot {
+  height: 8vh;
+  margin-left: 2%;
+}

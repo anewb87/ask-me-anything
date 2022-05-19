@@ -1,39 +1,47 @@
+.intro {
+  line-height: 1.5;
+  color: whitesmoke;
+  text-shadow: 2px 3px 4px #00111c;
+}
+
 label {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.2em;
-  color: #F58124;
   margin-top: 2em;
+  font-size: 1.2em;
+  color: #2ABBC7;
+  font-weight: 800;
+  text-shadow: 2px 3px 4px #00111c;
 }
 
 textarea {
+  font-size: 1.1em;
+  text-transform: uppercase;
   border-radius: 10px;
   margin: 1em;
   background-color: transparent;
-  border: 2px solid black;
-  background-color: transparent;
-  color: black;
   padding: 14px 28px;
-  font-size: 1.1em;
-  cursor: pointer;
-  border-color: #F58124;
-  color: #F58124;
+  cursor: text;
+  box-shadow: 19px 19px 20px 4px #013252;
+  color: #FCED31;
+  text-shadow: 2px 3px 4px #00111c;
   resize: none;
+  border: none;
 }
 
 ::placeholder {
-  color: rgb(208, 197, 186);
+  color: whitesmoke;
+  text-shadow: 2px 3px 4px #00111c;
   text-align: center;
 }
 
-.submit-button {
+.form-button {
+  margin-top: 1.5%;
   border-radius: 10px;
-  height: 2em;
-  width: 7em;
-  /* font-size: 18px; */
+  height: 3em;
+  width: 8em;
   font-size: .9em;
-  background-color: #F58124;
-  color: #F7F7F7;
+  color: #00111c;
   border: none;
 }

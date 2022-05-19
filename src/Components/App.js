@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import Header from './Header';
 import Form from './Form';
 import AnswersContainer from './AnswersContainer';
 import Error from './ErrorModal';
@@ -20,10 +21,7 @@ const App = () => {
 
   return (
     <main className='app'>
-      <header className='header'>
-        <h1>ASK ME ANYTHING!</h1>
-      </header>
-      <p>I may not be human, but I've got a lot to say. What would you like to know?</p>
+      <Header/>
       <Form submitQuestion={submitQuestion}/>
       <AnswersContainer answers={answers}/>
       <Error 
