@@ -18,6 +18,10 @@
 This application allows users to have some fun with Artificial Intelligence by sending questions or instructions to an api that processes their input and sends back a human-language response. 
 
 ## Project Goals
+- **Build a Simple, Functional Application for Users to Interact with AI**  
+<img width="1440" alt="Screen Shot 2022-05-19 at 11 55 31 AM" src="https://user-images.githubusercontent.com/89421307/169366024-85aa4363-20e4-4f0d-b23c-aa3afc7165b4.png">  <br/><br/>
+
+
 - **Input Text Promps and Recieve a Response:** The responses should display both the user input and the response. Additionally, the newest prompt should be displayed first.  
 ![user-input-and-response](https://media.giphy.com/media/F1ilSzEw7f4yCODpYM/giphy.gif)  <br/><br/>
 
@@ -27,8 +31,11 @@ This application allows users to have some fun with Artificial Intelligence by s
 - **Responsive Design:** *Ask Me Anything* is responsive to varying screen sizes.  
 ![responsive-design](https://media.giphy.com/media/PGItL3qAO8oSJwT9xC/giphy.gif)  <br/><br/>
 
-- **E2E Testing:** Cypress was used to build end-to-end tests for user flow, employing an intercept and fixture.
-<img width="1440" alt="Cypress testing of all tests passing" src="https://user-images.githubusercontent.com/89421307/169365146-7f6f0689-6839-410c-9053-d7891d7e1c5c.png">
+- **Error Handling:** Should something go amiss, the application will display a modal explaining what the issue is and will redirect a user to try again.
+![error-handling](https://media.giphy.com/media/TpnMuCrSDJEcOhHYvM/giphy.gif)  <br/><br/>
+
+- **E2E Testing:** Cypress was used to build end-to-end tests for user flow, employing an intercept and fixture.  
+<img width="1440" alt="Cypress testing of all tests passing" src="https://user-images.githubusercontent.com/89421307/169365146-7f6f0689-6839-410c-9053-d7891d7e1c5c.png">  
 
 
 ## Technologies Used
