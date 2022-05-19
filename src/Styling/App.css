@@ -1,16 +1,8 @@
-h1 {
-  margin: 0;
-  font-size: 2.2em;
-  font-weight: 600;
-  text-shadow: 3px 3px 3px black;
-  padding: .7% 0 .2% 0;
-}
-
 p {
-  font-size: 1.3em
+  font-size: 1.1em;
 }
 
-button {
+button, h1, h2, p {
   font-family: 'Bitter', serif;
 }
 
@@ -23,12 +15,7 @@ button:hover {
 .app {
   text-align: center;
   font-family: 'Bitter',serif;
-  color: #F7F7F7;
-  background: linear-gradient(180deg, rgba(17, 35, 78, 1) 0%, rgba(26, 59, 112, 1) 50%, rgba(92, 131, 196, 1) 100%);
+  background: linear-gradient(180deg, rgba(1, 50, 82, 1) 0%, rgba(0, 80, 129, 1) 50%, rgba(15, 170, 185, 1) 100%);
   height: 100vh;
 }
 
-.header {
-  border-bottom: 1px solid #F58124;
-  margin: 0 4% 0 4%;
-}
