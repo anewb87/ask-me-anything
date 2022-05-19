@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styling/Card.css'
 
-const Card = ({ id, question, answer }) => {
+const Card = ({ question, answer }) => {
   return (
     <section className='card'>
       <p className='question'>{question}</p>

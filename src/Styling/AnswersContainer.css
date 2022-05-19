@@ -1,9 +1,9 @@
 .answers-container {
-  font-size: .7em;
+  font-size: .8em;
   padding-left: 2em;
   padding-right: 2em;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2em;
 }
 
@@ -11,7 +11,7 @@
   text-align: start;
   color: whitesmoke;
   margin-top: 2%;
-  margin-left: 5%;
+  margin-left: 7%;
 }
 
 .conversation-request {
