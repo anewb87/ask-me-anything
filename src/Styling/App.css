@@ -16,6 +16,6 @@ button:hover {
   text-align: center;
   font-family: 'Bitter',serif;
   background: linear-gradient(180deg, rgba(1, 50, 82, 1) 0%, rgba(0, 80, 129, 1) 50%, rgba(15, 170, 185, 1) 100%);
-  height: 100vh;
+  height: 100vh
 }
 

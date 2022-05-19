@@ -1,10 +1,13 @@
 .card {
-  background-color: #F58124;
+  background-color: transparent;
+  background-color: #FCED31;
   border-radius: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .question {
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: 600;
   color: rgba(17, 35, 78, 1)
 }
