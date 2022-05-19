@@ -18,7 +18,7 @@ const Form = ({ submitQuestion }) => {
 
   return (
     <section>
-      <p className='intro'>DOOR-E here! Nice to meet you. <br/>I'm your personal AI encyclopedia, and while I may not be human, I've sure got a lot to say. <br/>What would you like to know?</p>
+      <p className='intro'>DOOR·E here! Nice to meet you. <br/>I'm your personal AI encyclopedia, and while I may not be human, I've sure got a lot to say. <br/>What would you like to know?</p>
       <form
         className='form'
       >
