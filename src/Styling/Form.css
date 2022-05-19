@@ -47,7 +47,7 @@ textarea {
   margin-top: 1.5%;
   border-radius: 10px;
   height: 3em;
-  width: 8em;
+  width: 10em;
   font-size: .9em;
   color: #00111c;
   border: none;
@@ -57,8 +57,46 @@ textarea {
   margin-top: 1.5%;
   border-radius: 10px;
   height: 4em;
-  width: 10em;
+  width: 12em;
   font-size: .9em;
   color: #00111c;
   border: none;
+}
+
+.form-button:hover {
+  background-color: rgba(15, 170, 185, 1);
+  color: whitesmoke
+}
+
+.ask-button:hover {
+  background-color: #FCED31;
+}
+
+@media screen and (max-width: 850px) {
+  textarea {
+    width: 80vw
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .intro {
+    padding-left: 3%;
+    padding-right: 3%
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .more-ideas-button {
+    margin-right: 1%
+  }
+
+  .ideas-button {
+    margin-left: 1%
+  }
+}
+
+@media screen and (max-width: 440px) {
+  textarea {
+    height: 8vh
+  }
 }

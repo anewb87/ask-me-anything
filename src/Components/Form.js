@@ -33,7 +33,7 @@ const Form = ({ submitQuestion }) => {
         </label>
         <div className='button-container'>
           <button
-            className="form-button"
+            className="form-button ideas-button"
             onClick={(e) => {
               e.preventDefault();
               setIdeas(true);
@@ -49,8 +49,8 @@ const Form = ({ submitQuestion }) => {
             }}>Ask Me!
           </button>
           <button
-            className="form-button"
-            onClick={() => window.open('https://faculty.washington.edu/ejslager/random-generator/index.html')}>Inspiration!
+            className="form-button more-ideas-button"
+            onClick={() => window.open('https://faculty.washington.edu/ejslager/random-generator/index.html')}>Even More Ideas!
           </button>
         </div>
       </form>
