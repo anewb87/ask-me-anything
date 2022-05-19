@@ -31,12 +31,14 @@ This application allows users to have some fun with Artificial Intelligence by s
 - **Responsive Design:** *Ask Me Anything* is responsive to varying screen sizes.  
 ![responsive-design](https://media.giphy.com/media/PGItL3qAO8oSJwT9xC/giphy.gif)  <br/><br/>
 
-- **Error Handling:** Should something go amiss, the application will display a modal explaining what the issue is and will redirect a user to try again.
+- **Error Handling:** Should something go amiss, the application will display a modal explaining what the issue is and will redirect a user to try again.  
 ![error-handling](https://media.giphy.com/media/TpnMuCrSDJEcOhHYvM/giphy.gif)  <br/><br/>
 
 - **E2E Testing:** Cypress was used to build end-to-end tests for user flow, employing an intercept and fixture.  
-<img width="1440" alt="Cypress testing of all tests passing" src="https://user-images.githubusercontent.com/89421307/169365146-7f6f0689-6839-410c-9053-d7891d7e1c5c.png">  
+<img width="1440" alt="Cypress testing of all tests passing" src="https://user-images.githubusercontent.com/89421307/169365146-7f6f0689-6839-410c-9053-d7891d7e1c5c.png">   <br/><br/>
 
+- **Extras:** Two buttons (*Ideas!* and *Even More Ideas!*) are availble for the user if they are in need of some inspiration. *Ideas!* displays a modal with bulleted prompts while *Even More Ideas!* opens up a new tab- a University of Washington faculty website that generates random questions.  
+![ideas-buttons](https://media.giphy.com/media/WN085l7GG1cslFT1kL/giphy.gif)
 
 ## Technologies Used
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
