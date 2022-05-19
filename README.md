@@ -10,7 +10,7 @@
 - [Author](#author)
 
 ## Deployed Link
-[Ask Me Anything]()   
+[Ask Me Anything](https://shopify-ask-me-anything.herokuapp.com/)   
 *DISCLAIMER: It appears that OpenAI API lacks compatibility with Heroku. While the application doesn't fully function on this deployed site, it does on my local device.*
 
 ## Overview
