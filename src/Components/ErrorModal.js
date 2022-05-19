@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styling/ErrorModal.css';
+import '../Styling/Modal.css';
 
 const Error = ({ error, toClose}) => {
   if (!error) {

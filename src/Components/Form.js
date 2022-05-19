@@ -1,11 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import IdeasModal from './IdeasModal';
 import '../Styling/Form.css'
 
 const Form = ({ submitQuestion }) => {
-  const [ question, setQuestion ] = useState('')
+  const [ question, setQuestion ] = useState('');
+  const [ideas, setIdeas] = useState(false);
 
   const clearQuestion = () => {
     setQuestion('')
+  }
+
+  if (ideas) {
+    return (
+      <IdeasModal toClose={() => setIdeas(false)}/>
+    )
   }
 
   return (
@@ -13,11 +21,6 @@ const Form = ({ submitQuestion }) => {
       <p className='intro'>DOOR-E here! Nice to meet you. <br/>I'm your personal AI encyclopedia, and while I may not be human, I've sure got a lot to say. <br/>What would you like to know?</p>
       <form
         className='form'
-        onSubmit={(e) => {
-          e.preventDefault();
-          submitQuestion(question)
-          clearQuestion();
-        }}
       >
         <label>YOUR QUERY:
           <textarea 
@@ -28,7 +31,28 @@ const Form = ({ submitQuestion }) => {
             onChange={(e) => setQuestion(e.target.value)}
           />
         </label>
-          <button className='form-button'>Ask Away!</button>
+        <div className='button-container'>
+          <button
+            className="form-button"
+            onClick={(e) => {
+              e.preventDefault();
+              setIdeas(true);
+            }}
+            >Ideas!
+          </button>
+          <button 
+            className='ask-button'
+            onClick={(e) => {
+              e.preventDefault();
+              submitQuestion(question)
+              clearQuestion();
+            }}>Ask Me!
+          </button>
+          <button
+            className="form-button"
+            onClick={() => window.open('https://faculty.washington.edu/ejslager/random-generator/index.html')}>Inspiration!
+          </button>
+        </div>
       </form>
     </section>
   )

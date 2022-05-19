@@ -7,9 +7,9 @@ import { getAnswer } from '../apiCalls';
 import '../Styling/App.css'
 
 const App = () => {
-
   const [ answers, setAnswers ] = useState([]);
-  const [error, setError] = useState(false)
+  const [error, setError] = useState(false);
+  
   
   const submitQuestion = (input) => {
     getAnswer(input)
