@@ -39,3 +39,11 @@
   color: #F7F7F7;
   border: none;
 }
+
+@media screen and (max-width: 1300px) {
+  .ideas {
+      font-size: 20px;
+      height: 75%;
+      width: 45%
+    }
+}

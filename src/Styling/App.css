@@ -9,7 +9,7 @@ button, h1, h2, p {
 button:hover {
   cursor: pointer;
   transform: scale(1.1);
-  transition-duration: .5s;
+  transition-duration: .3s;
 }
 
 .app {
@@ -18,4 +18,3 @@ button:hover {
   background: linear-gradient(180deg, rgba(1, 50, 82, 1) 0%, rgba(0, 80, 129, 1) 50%, rgba(15, 170, 185, 1) 100%);
   height: 100vh
 }
-

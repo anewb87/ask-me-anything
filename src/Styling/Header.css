@@ -20,3 +20,9 @@ h1 {
   height: 8vh;
   margin-left: 2%;
 }
+
+@media screen and (max-width: 475px) {
+  .robot {
+    margin-right: 8%
+  }
+}

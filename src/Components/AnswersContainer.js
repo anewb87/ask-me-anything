@@ -19,7 +19,7 @@ const AnswersContainer = ({ answers }) => {
       return cards
     } else {
       return (
-        <p className='conversation-request'>We haven't chatted yet. Please, ask me something.</p>
+        <p className='conversation-request'>We haven't chatted yet. <br/>Please, ask me something.</p>
       )
     }
   }
