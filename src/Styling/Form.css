@@ -36,11 +36,28 @@ textarea {
   text-align: center;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%
+}
+
 .form-button {
   margin-top: 1.5%;
   border-radius: 10px;
   height: 3em;
   width: 8em;
+  font-size: .9em;
+  color: #00111c;
+  border: none;
+}
+
+.ask-button {
+  margin-top: 1.5%;
+  border-radius: 10px;
+  height: 4em;
+  width: 10em;
   font-size: .9em;
   color: #00111c;
   border: none;
