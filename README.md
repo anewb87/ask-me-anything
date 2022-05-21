@@ -11,7 +11,6 @@
 
 ## Deployed Link
 [Ask Me Anything](https://shopify-ask-me-anything.herokuapp.com/)   
-*DISCLAIMER: It appears that OpenAI API lacks compatibility with Heroku. While the application doesn't fully function on this deployed site (no response is sent), it does on my local device.*
 
 ## Overview
 *Ask Me Anything* is an application built for the Shopify Front End Developer Intern Challenge. The project specifications can be found [here](https://docs.google.com/document/d/1O7mCynsz_cBXkEaCFGSZAuvAOY84QVq35l20xJwjOYg/edit#).  
