@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2em;
+  padding-bottom: 2em;
 }
 
 .conversations {
@@ -18,4 +19,22 @@
   font-size: 1.5em;
   color: whitesmoke;
   margin-left: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+  .answers-container {
+    grid-template-columns: repeat(3, 1fr)
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .answers-container {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .answers-container {
+    grid-template-columns: repeat(1, 1fr)
+  }
 }
